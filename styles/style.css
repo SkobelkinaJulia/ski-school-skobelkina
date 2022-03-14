@@ -1,0 +1,66 @@
+.product-title {
+width: 1278px;
+height: 89px;
+font-weight: 500;
+line-height: 89px;
+}
+header .btn{
+width: 194px;
+height: 29px;
+font-weight: 500;
+line-height: 29px;
+}
+header .logo{
+width: 295.5px;
+height: 50.76px;
+}
+header .phone-number{
+width: 256px;
+height: 34px;
+font-weight: 500;
+line-height: 34px;
+}
+.product-desc{
+height: 117px;
+font-weight: 500;
+line-height: 39px;
+}
+.benefits-title{
+height: 80px;
+font-weight: 500;
+line-height: 167%;
+}
+.benefits-headline{
+height: 53px;
+font-weight: 500;
+line-height: 167%;
+}
+.benefits-desc{
+width: 406px;
+height: 144px;
+font-weight: normal;
+line-height: 140%;
+}
+.lead-title{
+height: 80px;
+font-weight: 500;
+line-height: 167%;
+}
+.lead .btn{
+width: 290px;
+height: 44px;
+font-weight: 500;
+line-height: 44px;
+}
+.cta{
+width: 171px;
+height: 33px;
+font-weight: 500;
+line-height: 167%;
+}
+.copyright{
+width: 197px;
+height: 22px;
+font-weight: 500;
+line-height: 22px;
+}
