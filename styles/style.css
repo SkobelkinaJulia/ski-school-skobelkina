@@ -1,46 +1,113 @@
+/* oswald-500 - latin_cyrillic */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+       url('../fonts/oswald-v47-latin_cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/oswald-v47-latin_cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-regular - latin_cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/montserrat-v23-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v23-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-500 - latin_cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+       url('../fonts/montserrat-v23-latin_cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v23-latin_cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+/* common */
+body{
+  font-family: Montserrat, sans-serif ;
+  color: #060D10;
+
+}
+
+/* header */
+.header {
+  background-color: #66D1FF;
+}
+header .btn{
+  color: inherit;
+ background-color: #fff;
+  width: 194px;
+  height: 29px;
+  font-weight: 500;
+  line-height: 29px;
+  }
+  header .logo{
+    color: inherit;
+  width: 295.5px;
+  height: 50.76px;
+  }
+  header .phone-number{
+    color: inherit;
+  width: 256px;
+  height: 34px;
+  font-weight: 500;
+  line-height: 34px;
+  }
+/* product */
+.product-background{
+ 
+
+}
 .product-title {
+font-family: Oswald, sans-serif;
+color: #ffffff;
+text-shadow: #060D10;
 width: 1278px;
 height: 89px;
 font-weight: 500;
 line-height: 89px;
 }
-header .btn{
-width: 194px;
-height: 29px;
-font-weight: 500;
-line-height: 29px;
-}
-header .logo{
-width: 295.5px;
-height: 50.76px;
-}
-header .phone-number{
-width: 256px;
-height: 34px;
-font-weight: 500;
-line-height: 34px;
-}
+
 .product-desc{
+font-family: Montserrat, sans-serif;
+color: #ffffff;
 height: 117px;
 font-weight: 500;
 line-height: 39px;
 }
+
+/* benefits */
+.benefits{
+  background-color: #66D1FF;
+  mix-blend-mode: normal;
+  opacity: 0.1;
+}
 .benefits-title{
+font-family: Oswald, sans-serif;
 height: 80px;
 font-weight: 500;
 line-height: 167%;
 }
 .benefits-headline{
+font-family: Oswald, sans-serif;
 height: 53px;
 font-weight: 500;
 line-height: 167%;
 }
 .benefits-desc{
+font-family: Montserrat, sans-serif;
 width: 406px;
 height: 144px;
-font-weight: normal;
+font-weight: 400;
 line-height: 140%;
 }
+
+/* lead */
 .lead-title{
 height: 80px;
 font-weight: 500;
@@ -52,6 +119,8 @@ height: 44px;
 font-weight: 500;
 line-height: 44px;
 }
+
+/* footer */
 .cta{
 width: 171px;
 height: 33px;
