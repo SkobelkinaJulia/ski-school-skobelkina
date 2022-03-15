@@ -60,7 +60,10 @@ header .btn{
   }
 /* product */
 .product-background{
- 
+  background-image: url("/images/product-photo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 
 }
 .product-title {
@@ -83,9 +86,9 @@ line-height: 39px;
 
 /* benefits */
 .benefits{
-  background-color: #66D1FF;
+  background-color: rgba(102, 209, 255, 10%);
   mix-blend-mode: normal;
-  opacity: 0.1;
+  
 }
 .benefits-title{
 font-family: Oswald, sans-serif;
@@ -108,12 +111,19 @@ line-height: 140%;
 }
 
 /* lead */
+.lead{
+
+}
 .lead-title{
+  font-family: Oswald, sans-serif;
+  color: #060D10;
 height: 80px;
 font-weight: 500;
 line-height: 167%;
 }
 .lead .btn{
+  font-family: Montserrat, sans-serif;
+  color: #060D10;
 width: 290px;
 height: 44px;
 font-weight: 500;
@@ -121,13 +131,20 @@ line-height: 44px;
 }
 
 /* footer */
+.footer{
+  background-color: #060D10;
+}
 .cta{
+  font-family: Montserrat, sans-serif;
+  color: #ffffff;
 width: 171px;
 height: 33px;
 font-weight: 500;
 line-height: 167%;
 }
 .copyright{
+  font-family: Montserrat, sans-serif;
+  color: #ffffff;
 width: 197px;
 height: 22px;
 font-weight: 500;
